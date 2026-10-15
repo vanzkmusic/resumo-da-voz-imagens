@@ -1,0 +1,1 @@
+# resumo-da-voz-imagens
