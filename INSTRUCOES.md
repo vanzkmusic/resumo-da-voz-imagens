@@ -4,7 +4,7 @@ Carrossel do Instagram que resume, de segunda a sexta, a edição do dia do prog
 **A Voz do Brasil**, com identidade visual fixa. Siga este roteiro na ordem.
 
 ## 0. Antes de começar
-- Data de hoje em America/Sao_Paulo → `AAAA-MM-DD`. Pasta do dia: `<AAAA-MM-DD>/`.
+- **Data de hoje: rode `TZ=America/Sao_Paulo date +%F` e use EXATAMENTE essa saída.** Nunca use a data UTC do sistema: a tarefa roda às 21h57 de Brasília, quando em UTC já é o dia seguinte. Confira também o dia da semana com `TZ=America/Sao_Paulo date +%A`. Pasta do dia: `<AAAA-MM-DD>/`.
 - Se essa pasta já tiver JPGs e `postado.txt`, o dia já foi postado: **pare**.
 - Não houve edição hoje? Pode ser feriado nacional ou o Rádio Gov não ter nada com a data de hoje. Nesse caso **não poste**. Registre `sem-edicao.txt` na pasta e pare.
 
