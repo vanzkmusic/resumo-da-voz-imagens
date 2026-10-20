@@ -21,7 +21,7 @@ Crie de 5 a 9 arquivos HTML numerados (`01-capa.html` … `NN-fechamento.html`).
 
 | Modelo | Use para |
 |---|---|
-| `01-capa.html` | Sempre o 1º. Data (ex.: `QUI · 15 OUT 2026`) e 4 chips com os temas. O chip do tema principal leva a borda amarela. |
+| `01-capa.html` | Sempre o 1º. **Use o modelo de capa do dia da semana** (seção 2.1 abaixo), não o de `modelo/exemplo/`. |
 | `02-senado-destaque-numeros.html` | Manchete principal com 2 números grandes. Fundo escuro. |
 | `03-senado-linha-do-tempo.html` | "O que muda": antes, depois e prazos. |
 | `04-camara-valores.html` | Valores lado a lado (antes, 2027, 2028) mais 2 pontos. |
@@ -29,6 +29,19 @@ Crie de 5 a 9 arquivos HTML numerados (`01-capa.html` … `NN-fechamento.html`).
 | `06-executivo-dois-blocos.html` | Dois assuntos relacionados no mesmo card. |
 | `07-executivo-cards-com-icone.html` | Dois assuntos curtos com ícone. |
 | `08-fechamento.html` | Sempre o último: CTA, "Siga @voz.brasilsemanal" e FONTES com a data. |
+
+### 2.1 Capa: um modelo por dia da semana (aprovado pelo Vaner em 20/10/2026)
+Pegue o dia com `TZ=America/Sao_Paulo date +%A`, copie `modelo/capas/<dia>.html` para `cards/01-capa.html` e troque só o conteúdo. Cada dia tem a sua cara, e é isso que deixa a grade do perfil variada. Não troque o modelo entre os dias.
+
+| Dia | Arquivo | Fundo | Conteúdo |
+|---|---|---|---|
+| Segunda | `modelo/capas/segunda.html` | azul | "O que a Voz do Brasil falou hoje", data `SEG · DD OUT AAAA` e 4 chips de temas (borda amarela no principal). |
+| Terça | `modelo/capas/terca.html` | areia | "O NÚMERO DO DIA": um número curto e marcante da notícia principal (ex.: `R$ 691`, `75 a 1`, `42h`), uma frase em h1 explicando e uma linha de contexto. Embaixo, 3 pílulas `+ tema`. O número deve caber numa linha (no máximo ~7 caracteres; se for maior, reduza a fonte). |
+| Quarta | `modelo/capas/quarta.html` | amarelo | "A MANCHETE DE HOJE": a notícia principal como manchete (até ~45 caracteres), a onda de áudio e a faixa `+ N notícias no carrossel` com o número real de cards de notícia. |
+| Quinta | `modelo/capas/quinta.html` | azul com círculos | "QUINTA" e a data dentro dos círculos, "NO AR" no topo, a manchete principal embaixo (até ~60 caracteres, com o dado-chave em amarelo) e a linha "E mais: …". |
+| Sexta | `modelo/capas/sexta.html` | metade azul, metade areia | Uma pergunta direta ao público sobre o tema principal (até ~55 caracteres, palavra-chave em amarelo) e "A VOZ RESPONDE HOJE" com 3 itens numerados `01 02 03`. |
+
+Data no selo: `TER · 20 OUT`, `QUA · 21 OUT`, `SEX · 23 OUT` (terça, quarta e sexta). Na quinta, `22 OUT 2026` vai abaixo de "QUINTA". Use `&nbsp;` entre "R$" e o número para não quebrar a linha. Confira na prévia se o texto não passa dos círculos (quinta) nem fica cortado.
 
 Identidade (não mude):
 - Cores: azul-marinho `#0F1E33`, areia `#F3EFE6`, amarelo `#F2C230`. Texto secundário `#B8C2D1` no escuro e `#2D3748` ou `#4A5568` no claro.
