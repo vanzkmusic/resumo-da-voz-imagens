@@ -4,9 +4,18 @@ Carrossel do Instagram que resume, de segunda a sexta, a edição do dia do prog
 **A Voz do Brasil**, com identidade visual fixa. Siga este roteiro na ordem.
 
 ## 0. Antes de começar
-- **Data de hoje: rode `TZ=America/Sao_Paulo date +%F` e use EXATAMENTE essa saída.** Nunca use a data UTC do sistema: a tarefa roda às 21h57 de Brasília, quando em UTC já é o dia seguinte. Confira também o dia da semana com `TZ=America/Sao_Paulo date +%A`. Pasta do dia: `<AAAA-MM-DD>/`.
-- Se essa pasta já tiver JPGs e `postado.txt`, o dia já foi postado: **pare**.
+- **Data de hoje: rode `TZ=America/Sao_Paulo date +%F` e use EXATAMENTE essa saída.** Nunca use a data UTC do sistema: a tarefa roda à noite em Brasília, quando em UTC já é o dia seguinte. Confira também o dia da semana com `TZ=America/Sao_Paulo date +%A` e a hora com `TZ=America/Sao_Paulo date +%H:%M`. Pasta do dia: `<AAAA-MM-DD>/`.
+- Faça `git pull` antes de tudo. Se a pasta do dia já tiver `postado.txt` ou `sem-edicao.txt`, o dia já foi resolvido: **pare** sem fazer nada.
 - Não houve edição hoje? Pode ser feriado nacional ou o Rádio Gov não ter nada com a data de hoje. Nesse caso **não poste**. Registre `sem-edicao.txt` na pasta e pare.
+
+## 0.1 Esperar votação? (a tarefa roda às 20h27, 20h57, 21h27 e 21h57)
+O programa vai ao ar das 19h às 20h. O normal é postar já na primeira rodada (20h27). A exceção é quando há votação importante acontecendo à noite.
+1. Confira se há **sessão deliberativa do Plenário em andamento agora** no Senado ou na Câmara, com votação de matéria relevante (PEC, MP, projeto de grande impacto) ainda **não concluída**:
+   - Senado: agenda do Plenário de hoje em https://www25.senado.leg.br/web/atividade/agenda e notícias da Agência Senado de hoje.
+   - Câmara: https://www.camara.leg.br/agenda (Plenário) e notícias da Agência Câmara de hoje.
+2. **Se houver votação relevante em andamento e a hora for antes de 21h57:** não poste. Grave `<AAAA-MM-DD>/aguardando-votacao.txt` com o horário e o que está em votação, faça commit e push e **pare**. A próxima rodada confere de novo.
+3. **Se não houver, ou se já for a rodada de 21h57:** siga o roteiro normal e poste. Se alguma votação terminou depois das 20h, inclua o resultado (com fonte oficial) e apague `aguardando-votacao.txt`. Na rodada de 21h57, se a votação ainda não acabou, poste com o que já foi decidido e diga na legenda que a votação continua.
+4. Em caso de dúvida (agenda fora do ar, sem informação clara), **não espere**: poste.
 
 ## 1. Pesquisa (só fontes oficiais como base)
 1. Rádio Gov, bloco do Executivo: https://radiogov.ebc.com.br/programas/materias-da-voz. Abra cada matéria com a data de hoje.
