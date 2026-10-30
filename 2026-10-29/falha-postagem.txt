@@ -2,3 +2,5 @@ Rodada de 20h27 (29/10/2026): cards e legenda prontos e conferidos, JPGs no ar (
 A postagem via Windsor.ai (create_carousel_post, conta 17841423025294375) falhou 2 vezes
 com "Application request limit reached" (limite de requisições do app na Meta). Nada foi postado.
 Próxima rodada: pode reaproveitar este material e só tentar postar de novo.
+
+Rodada de 21h27 (29/10/2026): nova tentativa falhou com o mesmo erro "Application request limit reached". Nada foi postado. A rodada de 22h27 tenta de novo.
