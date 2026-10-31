@@ -4,3 +4,5 @@ com "Application request limit reached" (limite de requisições do app na Meta)
 Próxima rodada: pode reaproveitar este material e só tentar postar de novo.
 Rodada de 21h27 (30/10/2026): nova tentativa, falhou 2 vezes com o mesmo erro "Application request limit reached". Nada foi postado.
 Próxima rodada (22h27): pode tentar postar de novo com o mesmo material.
+Rodada de 22h27 (30/10/2026): última tentativa da noite, falhou 2 vezes com "Application request limit reached". Nada foi postado.
+Material pronto para postagem manual: JPGs 01 a 07 e legenda.txt nesta pasta.
