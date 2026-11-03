@@ -6,3 +6,5 @@ Próxima rodada: pode reaproveitar este material e só tentar postar de novo.
 Rodada de 21h27 (29/10/2026): nova tentativa falhou com o mesmo erro "Application request limit reached". Nada foi postado. A rodada de 22h27 tenta de novo.
 
 Rodada de 22h27 (29/10/2026): mais 2 tentativas falharam com "Application request limit reached". Nada foi postado. Era a última rodada da noite: postar à mão com os JPGs e o legenda.txt desta pasta.
+
+CORREÇÃO (03/11/2026): o registro acima está errado ao dizer "Nada foi postado". Apesar do erro, o Instagram publicou o carrossel 5 vezes (conferido na leitura de mídia do Windsor.ai). Manter 18113654501620775; apagar à mão os outros 4. Ver postado.txt.

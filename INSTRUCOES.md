@@ -91,10 +91,17 @@ Fontes: <órgãos>. Resumo independente, sem vínculo com o governo.
 Salve a legenda em `<AAAA-MM-DD>/legenda.txt`.
 
 ## 6. Postar
+**Antes de postar**, leia as mídias da conta: Windsor.ai `get_data`, connector `instagram`, account 17841423025294375, campos `media_id`, `timestamp`, `media_caption`, dos últimos 2 dias. Se já houver post com o gancho da `legenda.txt` de hoje, **não poste de novo**: grave o `media_id` em `postado.txt`, faça commit e push e pare.
+
 Ferramenta Windsor.ai `execute_action`: connector `instagram`, action `create_carousel_post`,
 account **17841423025294375** (= @voz.brasilsemanal; **nunca** a 17841460178890973, que é @moctechinfo).
 `image_urls` = URLs raw dos JPGs na ordem. `caption` = legenda.
 Depois grave o media id em `<AAAA-MM-DD>/postado.txt`, faça commit e push.
 
 ## 7. Se algo falhar
+**Erro ao postar não prova que o post não saiu.** O erro "Application request limit reached" já veio com o carrossel publicado, e as novas tentativas geraram duplicatas (29/10 e 30/10). Por isso:
+- Chame `create_carousel_post` **uma única vez por rodada**. Nunca repita a chamada depois de um erro.
+- Depois do erro, espere 2 minutos e faça a leitura de mídias da seção 6. Se o post apareceu, grave `postado.txt` e pare.
+- Se não apareceu, registre em `falha-postagem.txt` que o resultado está **não confirmado** (nunca escreva "nada foi postado"). A leitura pode vir de cache, então a próxima rodada confere de novo antes de tentar.
+
 Não tente caminhos alternativos para postar. Deixe os JPGs e a legenda no repositório e avise o Vaner do que falhou e de onde está o material, para ele postar à mão.
