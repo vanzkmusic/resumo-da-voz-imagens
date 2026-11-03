@@ -1,0 +1,4 @@
+Rodada de 20h27 (03/11/2026): create_carousel_post chamado UMA vez na conta 17841423025294375, retornou "Application request limit reached".
+Resultado NÃO CONFIRMADO: esse erro já veio com o post publicado em 29 e 30/10. A leitura de mídias às 20h40 voltou vazia, mas pode ser cache (force_refresh não está disponível no plano TRIAL).
+Próxima rodada: leia as mídias ANTES de tentar (seção 6). Se o gancho "Senado aprova a PEC da Segurança por 75 a 0" aparecer, grave postado.txt e pare. Não repita a chamada depois de erro.
+Material pronto: JPGs 01 a 08 e legenda.txt nesta pasta.
