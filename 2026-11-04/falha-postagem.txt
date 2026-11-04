@@ -1,0 +1,3 @@
+Rodada de 20h27 (chamada por volta de 20h40, horário de Brasília): create_carousel_post retornou "Application request limit reached".
+Resultado NÃO CONFIRMADO: a leitura de mídias 2 minutos depois não mostra o post, mas ela pode vir de cache (o plano não permite force_refresh).
+A próxima rodada deve ler as mídias antes de qualquer tentativa. Se houver post com o gancho da legenda.txt, gravar postado.txt e não postar de novo.
