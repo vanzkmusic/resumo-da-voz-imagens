@@ -2,3 +2,6 @@ Rodada de 20h27 (03/11/2026): create_carousel_post chamado UMA vez na conta 1784
 Resultado NÃO CONFIRMADO: esse erro já veio com o post publicado em 29 e 30/10. A leitura de mídias às 20h40 voltou vazia, mas pode ser cache (force_refresh não está disponível no plano TRIAL).
 Próxima rodada: leia as mídias ANTES de tentar (seção 6). Se o gancho "Senado aprova a PEC da Segurança por 75 a 0" aparecer, grave postado.txt e pare. Não repita a chamada depois de erro.
 Material pronto: JPGs 01 a 08 e legenda.txt nesta pasta.
+
+Rodada de 21h27 (03/11/2026): CONFIRMADO. O post da rodada de 20h27 saiu apesar do erro: media_id 18130064095847990, 23:38:30 UTC (20:38 em Brasília), com o gancho de hoje. Só 1 post, sem duplicata. Nenhuma nova chamada de postagem foi feita.
+A leitura com os campos media_id, timestamp e media_caption em last_2dT voltou vazia (cache); a mesma leitura com date_from/date_to e outra combinação de campos trouxe o post.
