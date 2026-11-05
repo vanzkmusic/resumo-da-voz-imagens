@@ -1,3 +1,6 @@
 Rodada de 20h27 (chamada por volta de 20h40, horário de Brasília): create_carousel_post retornou "Application request limit reached".
 Resultado NÃO CONFIRMADO: a leitura de mídias 2 minutos depois não mostra o post, mas ela pode vir de cache (o plano não permite force_refresh).
 A próxima rodada deve ler as mídias antes de qualquer tentativa. Se houver post com o gancho da legenda.txt, gravar postado.txt e não postar de novo.
+
+Rodada de 21h27 (04/11/2026): CONFIRMADO. O post da rodada de 20h27 saiu apesar do erro: media_id 18112560224616856, 23:41:13 UTC (20:41 em Brasília), https://www.instagram.com/p/DfVqPNsiLYK/. Só 1 post, sem duplicata. Nenhuma nova chamada de postagem foi feita.
+A leitura com media_id, timestamp e media_caption em last_2dT não mostrou o post (cache); a leitura com date_from/date_to e outra combinação de campos trouxe.
