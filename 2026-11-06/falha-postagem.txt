@@ -1,0 +1,2 @@
+Rodada de 20h27 (chamada por volta de 20h35, horário de Brasília): create_carousel_post retornou "Application request limit reached".
+CONFIRMADO na mesma rodada: o post saiu apesar do erro: media_id 18424126252156276, 23:35:06 UTC (20:35 em Brasília), https://www.instagram.com/p/DfazIK6iEpL/. Nenhuma nova chamada de postagem foi feita.
