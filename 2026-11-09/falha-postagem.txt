@@ -5,3 +5,6 @@ Material: 2026-11-09/*.jpg (7 cards) e 2026-11-09/legenda.txt.
 
 Rodada de 21h27 (conferida às 21h27, horário de Brasília): nova leitura de mídias (08 a 10/11 e últimos 7 dias) ainda vem de cache, com o último post em 06/11. Resultado continua NÃO CONFIRMADO.
 Não foi feita nova chamada de postagem: nas 3 vezes anteriores (03, 04 e 06/11) o mesmo erro veio com o carrossel publicado, então o risco de duplicata é alto. Vaner foi avisado para conferir o perfil.
+
+Rodada de 22h27 (conferida às 22h28, horário de Brasília): leitura de mídias (08 a 10/11) segue vazia, vinda de cache; force_refresh não está disponível no plano trial. Resultado continua NÃO CONFIRMADO.
+Sem nova chamada de postagem, pelo mesmo risco de duplicata. Vaner: confira o perfil; se o carrossel de 09/11 não estiver lá, poste à mão com 2026-11-09/*.jpg e 2026-11-09/legenda.txt.
