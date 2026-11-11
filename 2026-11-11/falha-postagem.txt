@@ -1,0 +1,4 @@
+Rodada de 20h27 (chamada por volta de 20h37, horário de Brasília): create_carousel_post retornou "Application request limit reached".
+Resultado NÃO CONFIRMADO: a leitura de mídias feita às 20h39 ainda não mostra post de 11/11 (a leitura pode vir de cache). Em 03, 04, 06, 09 e 10/11 o mesmo erro veio com o post publicado.
+Nenhuma nova chamada de postagem foi feita. A próxima rodada deve ler as mídias antes de qualquer tentativa (gancho: "Até R$ 60 bilhões: o governo apresentou o pacote de ajuste fiscal...").
+Material: 2026-11-11/*.jpg (6 cards) e 2026-11-11/legenda.txt.
