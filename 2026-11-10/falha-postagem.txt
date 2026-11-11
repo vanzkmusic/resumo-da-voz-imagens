@@ -2,3 +2,6 @@ Rodada de 21h27 (chamada por volta de 21h40, horário de Brasília): create_caro
 Resultado NÃO CONFIRMADO: a leitura de mídias feita 2 minutos depois ainda não mostra post de 10/11 (a leitura pode vir de cache). Em 03, 04, 06 e 09/11 o mesmo erro veio com o post publicado.
 Nenhuma nova chamada de postagem foi feita. A próxima rodada deve ler as mídias antes de qualquer tentativa.
 Material: 2026-11-10/*.jpg (7 cards) e 2026-11-10/legenda.txt.
+
+Rodada de 22h27 (conferida às 22h28, horário de Brasília): leitura de mídias (08 a 11/11) mostra só o post de 09/11 (17875489419639300); os dados vêm de cache e force_refresh não está disponível no plano trial. Resultado continua NÃO CONFIRMADO.
+Sem nova chamada de postagem: em 03, 04, 06 e 09/11 o mesmo erro veio com o carrossel publicado, e o post de 09/11 só apareceu na leitura cerca de 21h depois. Vaner: confira o perfil; se o carrossel de 10/11 não estiver lá, poste à mão com 2026-11-10/*.jpg e 2026-11-10/legenda.txt.
