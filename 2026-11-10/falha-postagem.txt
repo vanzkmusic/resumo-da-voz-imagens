@@ -1,0 +1,4 @@
+Rodada de 21h27 (chamada por volta de 21h40, horário de Brasília): create_carousel_post retornou "Application request limit reached".
+Resultado NÃO CONFIRMADO: a leitura de mídias feita 2 minutos depois ainda não mostra post de 10/11 (a leitura pode vir de cache). Em 03, 04, 06 e 09/11 o mesmo erro veio com o post publicado.
+Nenhuma nova chamada de postagem foi feita. A próxima rodada deve ler as mídias antes de qualquer tentativa.
+Material: 2026-11-10/*.jpg (7 cards) e 2026-11-10/legenda.txt.
