@@ -4,3 +4,5 @@ Nenhuma nova chamada de postagem foi feita. A próxima rodada deve ler as mídia
 Material: 2026-11-11/*.jpg (6 cards) e 2026-11-11/legenda.txt.
 
 Rodada de 21h27 (conferida às 21h29, horário de Brasília): leitura de mídias (10 a 12/11) mostra só o post de 10/11 (18037903184894915); dados de cache, force_refresh indisponível no plano trial. Resultado continua NÃO CONFIRMADO. Sem nova chamada de postagem (risco de duplicata).
+
+Rodada de 22h27 (conferida às 22h30, horário de Brasília): leitura de mídias (10 a 12/11) ainda mostra só o post de 10/11 (18037903184894915), dados possivelmente em cache. Resultado continua NÃO CONFIRMADO. Sem nova chamada de postagem: no histórico recente (03, 04, 06, 09 e 10/11) o mesmo erro veio com o post publicado, e repetir gerou duplicatas (29 e 30/10). Vaner: confira o perfil; se o post de 11/11 não estiver lá, poste à mão com 2026-11-11/*.jpg e legenda.txt.
