@@ -1,0 +1,5 @@
+Rodada de 21h27 (horário de Brasília, quinta 12/11/2026).
+Votação do PLP 299/2026 no Senado já concluída (imprensa: texto-base aprovado por 45 a 31, segue para a Câmara; matéria oficial da Agência Senado ainda não indexada).
+Leitura de mídias (Windsor get_data): erro "Instagram Error validating access token: You cannot access the app till you log in to www.instagram.com and follow the instructions given" (conta 17841423025294375).
+create_carousel_post (chamado uma vez): rejeitado pelo Windsor com "Account 17841423025294375 is not available. The configured accounts are: 17841460178890973 (moctechinfo)". A chamada foi recusada antes de chegar ao Instagram; resultado considerado NÃO CONFIRMADO conforme a regra, mas a recusa indica que a conta @voz.brasilsemanal saiu do Windsor.
+Ação para o Vaner: entrar em www.instagram.com com @voz.brasilsemanal, resolver o aviso de segurança e reconectar a conta em https://onboard.windsor.ai?datasource=instagram. Depois, postar à mão com 2026-11-12/*.jpg (7 cards) e 2026-11-12/legenda.txt.
