@@ -1,0 +1,4 @@
+Rodada de 20h27 (horário de Brasília, segunda 16/11/2026).
+Votação: sem sessão deliberativa no Plenário nesta noite (Senado retoma o ajuste fiscal na terça 17; Câmara só com audiências de comissão). Nada a esperar.
+Windsor get_connectors: o conector instagram lista só a conta 17841460178890973 (moctechinfo). @voz.brasilsemanal (17841423025294375) continua desconectada desde 12/11. Nenhuma tentativa de postagem feita (a chamada seria recusada). Resultado: NÃO POSTADO / pendente.
+Ação para o Vaner: reconectar @voz.brasilsemanal em https://onboard.windsor.ai?datasource=instagram (se preciso, antes resolver o aviso de segurança em www.instagram.com). As rodadas de 21h27 e 22h27 postam sozinhas se a conta voltar. Material pronto para postar à mão: 2026-11-16/*.jpg (8 cards) e 2026-11-16/legenda.txt.
