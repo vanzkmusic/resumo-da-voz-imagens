@@ -6,3 +6,4 @@ Ação para o Vaner: reconectar @voz.brasilsemanal em https://onboard.windsor.ai
 Rodada de 21h27: Windsor ainda lista só a conta 17841460178890973 (moctechinfo); @voz.brasilsemanal segue desconectada. Não postado. A rodada de 22h27 confere de novo.
 
 Rodada de 22h27 (última da noite): Windsor segue listando só 17841460178890973 (moctechinfo); @voz.brasilsemanal desconectada. NÃO POSTADO. Material pronto para postagem manual: 2026-11-16/*.jpg (8 cards) e 2026-11-16/legenda.txt.
+Postado às 23h após a reconexão (ver postado.txt).
